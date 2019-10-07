@@ -14,5 +14,7 @@ Messaging App contents:-
 Authentication on local side(initially) using the protocols.
 Server side handling,rendering and fetching of data using Firebase(initially),or some MYSQL,SQLite or PostgreSQL
 
-Development of SDK and then availlable to all the commmunity memebers.
+Swift Package Manager to be used.
+
+Development of SDK and then availlable to all the commmunity members.
 
