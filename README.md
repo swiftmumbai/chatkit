@@ -11,7 +11,7 @@ Messaging App contents:-
 -Chat tray
 -Individual chats screen 
 
-Authentication on local side using authentication protocol,
+Authentication on local side(initially) using the protocols.
 Server side handling,rendering and fetching of data using Firebase(initially),or some MYSQL,SQLite or PostgreSQL
 
 Development of SDK and then availlable to all the commmunity memebers.
