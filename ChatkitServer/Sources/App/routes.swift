@@ -19,10 +19,6 @@ public func routes(_ router: Router) throws {
         return "Hello, \(name)!"
     }
 
-    router.get("hello", "vapor") { req -> String in
-        return "Hello Vapor!"
-    }
-
     // Example of configuring a controller
     let todoController = TodoController()
     router.get("todos", use: todoController.index)
