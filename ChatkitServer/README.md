@@ -16,7 +16,12 @@
 
 * Visit [Server Endpoint](http://localhost:8080) to test the APIs
 
-# API Routes
+* To edit the files, in MacOS, run `vapor xcode -y` in the project folder. This fires up Xcode.
+Edit the project and build it.
+To run the project, select **Run** scheme next to the Run button, and then Run the project with `Cmd + R`
+
+
+## API Routes
 
 > ### /
 > "It works"
