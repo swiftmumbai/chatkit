@@ -16,4 +16,4 @@ Server side handling,rendering and fetching of data using Firebase(initially), o
 
 Swift Package Manager to be used.
 
-Development of SDK and then availlable to all the commmunity members.
+Development of SDK and then available to all the commmunity members.
