@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D7849B234E61F400D09DC8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 38D7849A234E61F400D09DC8 /* Alamofire */; };
 		94E63C7C23389703003BDA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7B23389703003BDA62 /* AppDelegate.swift */; };
 		94E63C7E23389703003BDA62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7D23389703003BDA62 /* SceneDelegate.swift */; };
 		94E63C8123389703003BDA62 /* Chatkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7F23389703003BDA62 /* Chatkit.xcdatamodeld */; };
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D7849B234E61F400D09DC8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +96,9 @@
 			dependencies = (
 			);
 			name = Chatkit;
+			packageProductDependencies = (
+				38D7849A234E61F400D09DC8 /* Alamofire */,
+			);
 			productName = Chatkit;
 			productReference = 94E63C7823389703003BDA62 /* Chatkit.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 94E63C6F23389703003BDA62;
+			packageReferences = (
+				38D78499234E61F400D09DC8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 94E63C7923389703003BDA62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38D78499234E61F400D09DC8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38D7849A234E61F400D09DC8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38D78499234E61F400D09DC8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		94E63C7F23389703003BDA62 /* Chatkit.xcdatamodeld */ = {
