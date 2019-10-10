@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		945F6FE9234EFB08002D2D1D /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F6FE8234EFB08002D2D1D /* StarterView.swift */; };
-		945F6FEE234F20D6002D2D1D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F6FED234F20D6002D2D1D /* Constants.swift */; };
+		945F701D234F937C002D2D1D /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945F7013234F937C002D2D1D /* Rubik-Regular.ttf */; };
+		945F701F234F937C002D2D1D /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945F7015234F937C002D2D1D /* Rubik-Medium.ttf */; };
 		94E63C7C23389703003BDA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7B23389703003BDA62 /* AppDelegate.swift */; };
 		94E63C7E23389703003BDA62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7D23389703003BDA62 /* SceneDelegate.swift */; };
 		94E63C8123389703003BDA62 /* Chatkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E63C7F23389703003BDA62 /* Chatkit.xcdatamodeld */; };
@@ -20,7 +21,8 @@
 
 /* Begin PBXFileReference section */
 		945F6FE8234EFB08002D2D1D /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
-		945F6FED234F20D6002D2D1D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		945F7013234F937C002D2D1D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		945F7015234F937C002D2D1D /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		94E63C7823389703003BDA62 /* Chatkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E63C7B23389703003BDA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E63C7D23389703003BDA62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +45,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		945F6FEC234F0003002D2D1D /* Extension */ = {
+		945F6FEF234F90C2002D2D1D /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				945F6FED234F20D6002D2D1D /* Constants.swift */,
+				945F7015234F937C002D2D1D /* Rubik-Medium.ttf */,
+				945F7013234F937C002D2D1D /* Rubik-Regular.ttf */,
 			);
-			path = Extension;
+			path = Font;
 			sourceTree = "<group>";
 		};
 		94E63C6F23389703003BDA62 = {
@@ -70,7 +73,7 @@
 		94E63C7A23389703003BDA62 /* Chatkit */ = {
 			isa = PBXGroup;
 			children = (
-				945F6FEC234F0003002D2D1D /* Extension */,
+				945F6FEF234F90C2002D2D1D /* Font */,
 				94E63C7B23389703003BDA62 /* AppDelegate.swift */,
 				94E63C7D23389703003BDA62 /* SceneDelegate.swift */,
 				94E63C8223389703003BDA62 /* ContentView.swift */,
@@ -150,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945F701D234F937C002D2D1D /* Rubik-Regular.ttf in Resources */,
 				94E63C8B23389704003BDA62 /* LaunchScreen.storyboard in Resources */,
+				945F701F234F937C002D2D1D /* Rubik-Medium.ttf in Resources */,
 				94E63C8823389704003BDA62 /* Preview Assets.xcassets in Resources */,
 				94E63C8523389704003BDA62 /* Assets.xcassets in Resources */,
 			);
@@ -166,7 +171,6 @@
 				94E63C7C23389703003BDA62 /* AppDelegate.swift in Sources */,
 				945F6FE9234EFB08002D2D1D /* StarterView.swift in Sources */,
 				94E63C7E23389703003BDA62 /* SceneDelegate.swift in Sources */,
-				945F6FEE234F20D6002D2D1D /* Constants.swift in Sources */,
 				94E63C8323389703003BDA62 /* ContentView.swift in Sources */,
 				94E63C8123389703003BDA62 /* Chatkit.xcdatamodeld in Sources */,
 			);

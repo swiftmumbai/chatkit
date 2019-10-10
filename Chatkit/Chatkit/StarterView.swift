@@ -21,15 +21,14 @@ import SwiftUI
 
 struct StarterView: View {
     let loginLogoImage = UIImage(named: "loginLogoImage")!
-
     var body: some View {
         VStack(alignment: .center, spacing: 20){
                 Image(uiImage:loginLogoImage)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 Text("ChatKit")
-                    .font(.largeTitle)
-                    .foregroundColor(blueColor)
+                    .font(Font.custom("Rubik-Medium", size: 30))
+                    .foregroundColor(Color("blueColor")).padding()
                 LoginButton()
                     .padding(.leading)
                     .padding(.trailing)
@@ -49,11 +48,11 @@ struct LoginButton:View{
                }) {
                 Text("Login")
                     .frame(maxWidth: .infinity)
-                    .font(.headline)
+                    .font(Font.custom("Rubik-Regular", size: 20))
                     .padding()
                     .background(Color.white)
-                    .foregroundColor(blueColor)
-                    .border(blueColor,width:2)
+                    .foregroundColor(Color("blueColor"))
+                    .border(Color("blueColor"),width:2)
                     .cornerRadius(5)
         }
     }
@@ -67,9 +66,9 @@ struct SignUpButton:View{
                }) {
                 Text("Sign Up")
                     .frame(maxWidth: .infinity)
-                    .font(.headline)
+                    .font(Font.custom("Rubik-Regular", size: 20))
                     .padding()
-                    .background(blueColor)
+                    .background(Color("blueColor"))
                     .foregroundColor(.white)
                     .cornerRadius(5)
         }
