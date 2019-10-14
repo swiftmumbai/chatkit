@@ -4,6 +4,9 @@ A Community Based Open Software Project
 
 We are in the process of developing a Messaging application for community level communications.
 
+
+Checkout Project status: https://github.com/swiftmumbai/chatkit/projects/1
+
 Messaging App contents:
 - Mainpage 
 - Login page 
