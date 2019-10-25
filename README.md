@@ -16,7 +16,7 @@ If you are enthusiastic about -
 - Teach your skills & knowhow to the Community
 
 Then feel free to get start asap by -
-- [Attending Swift Mumbai Meetups (in-person or Online)](https://www.meetup.com/Swift-Mumbai/) 
+- Attending Swift Mumbai Meetups [In-Person](https://www.meetup.com/Swift-Mumbai/) or [Online](https://www.twitch.tv/techstreams)
 - [Building features](https://github.com/swiftmumbai/chatkit/projects/1)
 - [Resolving bugs](https://github.com/swiftmumbai/chatkit/issues)
 - [Reviewing Pull Requests](https://github.com/swiftmumbai/chatkit/pulls)
@@ -25,4 +25,14 @@ Then feel free to get start asap by -
 - [Tweeting / Sharing the project](https://twitter.com/)
 
 
+If you can attend In-Person Swift Mumbai Meetups, we regularly have [Code Along Sessions](https://www.meetup.com/SwiftMumbai/events/265116292/) where - 
+1. You'll be assigned a Task Ticket for this Project
+2. A Task Ticket should take approximately 45 minutes of programming to complete
+3. You raise Pull Request to merge your code to Master Repository
+4. That's it. Now be proud of your Open Source contribution. 🎉
+
+If you can only attend Online, checkout our regular Twitch Livestreams: https://www.twitch.tv/techstreams
+
 Check the current Project Status: https://github.com/swiftmumbai/chatkit/projects/1
+
+Check out other Projects of Swift Mumbai Community: https://github.com/swiftmumbai
