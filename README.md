@@ -1,4 +1,4 @@
-# Chatkit
+# ChatKit
 
 [![codebeat badge](https://codebeat.co/badges/50a7fc27-9c9b-422e-9494-5642946db8ab)](https://codebeat.co/projects/github-com-swiftmumbai-chatkit-master)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/swiftmumbai/chatkit)](https://github.com/swiftmumbai/chatkit/pulls)
