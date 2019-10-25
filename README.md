@@ -6,21 +6,23 @@
 
 A Community Based Open Software Project
 
-We are in the process of developing a Messaging application for community level communications.
+We are developing a Chat Messaging application using SwiftUI with contributions majorly from the attendees of [Swift Mumbai Meetups](https://www.meetup.com/Swift-Mumbai/).
+
+If you are enthusiastic about -
+- Learning to build fairly large iOS apps
+- Using SwiftUI to build complex real time Messaging / Chat apps
+- Learn about Server Side components, building Frameworks / SDKs, expand into watchOS / macOS / WebAssembly
+- Learn skills off Developers in the Community
+- Teach your skills & knowhow to the Community
+
+Then feel free to get start asap by -
+- [Attending Swift Mumbai Meetups (in-person or Online)](https://www.meetup.com/Swift-Mumbai/) 
+- [Building features](https://github.com/swiftmumbai/chatkit/projects/1)
+- [Resolving bugs](https://github.com/swiftmumbai/chatkit/issues)
+- [Reviewing Pull Requests](https://github.com/swiftmumbai/chatkit/pulls)
+- [Designing App Flow & Screens](https://github.com/swiftmumbai/chatkit/tree/master/Assets)
+- [Updating Documentation](https://github.com/swiftmumbai/chatkit/blob/master/README.md)
+- [Tweeting / Sharing the project](https://twitter.com/)
 
 
-Checkout Project status: https://github.com/swiftmumbai/chatkit/projects/1
-
-Messaging App contents:
-- Mainpage 
-- Login page 
-- Signup page 
-- Chat tray
-- Individual chats screen 
-
-Authentication on local side (initially) using the protocols.
-Server side handling,rendering and fetching of data using Firebase(initially), or some MYSQL,SQLite or PostgreSQL
-
-Swift Package Manager to be used.
-
-Development of SDK and then available to all the commmunity members.
+Check the current Project Status: https://github.com/swiftmumbai/chatkit/projects/1
