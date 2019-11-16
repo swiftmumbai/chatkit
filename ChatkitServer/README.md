@@ -8,9 +8,10 @@
 
 * Once installed, follow with these commands in the terminal
 
-```cd ChatkitServer```
-```vapor build```
-``` vapor run```
+```cd ChatkitServer
+vapor build
+vapor run
+```
 
 * Congratulations, you got *Vapor* up and running.
 
@@ -23,12 +24,15 @@ To run the project, select **Run** scheme next to the Run button, and then Run t
 
 ## API Routes
 
-```/```
-"It works"
-
-```/hello```
-"Hello, world!"
-
-```/hello/<param>```
+```/
+// "It works"
+```
+```
+/hello
+// prints "Hello, world!"
+```
+```
+/hello/<param>
  "Hello, <param>"
+ ```
 
