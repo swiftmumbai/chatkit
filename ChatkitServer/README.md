@@ -9,9 +9,9 @@
 * Once installed, follow with these commands in the terminal:
 
     ```
-    cd ChatkitServer
-    vapor build
-    vapor run
+    $ cd ChatkitServer
+    $ vapor build
+    $ vapor run
     ```
 
 * Congratulations, you got *Vapor* up and running.
