@@ -1,18 +1,18 @@
 > Always leave the code behind in a better state than you found it.
 
-## Changes
+## Summary
 
-### Features
-- <!--TOPIC-->
-  <!-- ADD the link to the JIRA ticket here -->
+<!-- Explain the **motivation** for making this change. What existing problem does the pull request solve? -->
 
-### Bug Fixes
-- <!--TOPIC-->
-  <!-- ADD the link to the JIRA ticket here -->
 
-### Refactor
-- <!--TOPIC-->
-  <!-- ADD the link to the JIRA ticket here -->
+## Changelog
+
+<!-- Help reviewers and the release process by writing your own changelog entry. -->
+
+
+## Test Plan
+
+<!-- Demonstrate the code is solid. Example: The exact commands you ran and their output, screenshots / videos if the pull request changes the user interface. -->
 
 
 ## Code Guidelines
