@@ -4,15 +4,15 @@
 
 * Clone this repository
 
-* Make sure you have installed Vapor 3.1.0 or higher version. Installation steps on  [Vapor-Codes](https://docs.vapor.codes/3.0/install/)
+* Make sure you have installed Vapor 3.1.0 or higher version. Installation steps on  [Vapor-Codes](https://docs.vapor.codes/3.0/install/macos)
 
-* Once installed, follow with these commands in the terminal
+* Once installed, follow with these commands in the terminal:
 
-```
-cd ChatkitServer
-vapor build
-vapor run
-```
+    ```
+    cd ChatkitServer
+    vapor build
+    vapor run
+    ```
 
 * Congratulations, you got *Vapor* up and running.
 
@@ -27,14 +27,14 @@ To run the project, select **Run** scheme next to the Run button, and then Run t
 
 ```
 /
-// "It works"
+// prints "It works"
 ```
+
 ```
 /hello
 // prints "Hello, world!"
 ```
 ```
 /hello/<param>
- "Hello, <param>"
+// prints "Hello, <param>"
  ```
-
